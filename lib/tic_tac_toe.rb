@@ -74,3 +74,7 @@ class TicTacToe
    end
 end
 
+def full?
+  turn_count > 8
+end
+
