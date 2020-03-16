@@ -73,7 +73,10 @@ class TicTacToe
   winner    
    end
    def full?
-  turn_count == 9
+  turn_count > 8
+   end
+   def draw?
+     
    end
 end
 
