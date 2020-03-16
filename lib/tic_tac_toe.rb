@@ -69,6 +69,7 @@ class TicTacToe
        else
          winner
        end
+     end
        winner
    end
 end
