@@ -47,7 +47,7 @@ class TicTacToe
      counter
    end 
    def current_player
-    turn_count % 2 == 0 ? "X" : "O"
+    turn_count.even? "X": "O"
    end
    def turn
      puts "Choose a number between 1-9"
@@ -82,7 +82,7 @@ class TicTacToe
      won? || draw?
    end
    def winner
-     won? ? @board[won?[0]]
+     won? ? @board[won?[0]] :
    end
 end
 
