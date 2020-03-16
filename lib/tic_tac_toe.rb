@@ -73,7 +73,7 @@ class TicTacToe
   winner    
    end
    def full?
-  turn_count > 8
+ !@board.won
    end
    def draw?
      
