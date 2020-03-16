@@ -73,7 +73,7 @@ class TicTacToe
   winner    
    end
    def full?
- !@board.won
+ !@board.won?
    end
    def draw?
      
