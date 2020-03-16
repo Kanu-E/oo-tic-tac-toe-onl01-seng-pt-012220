@@ -86,6 +86,8 @@ class TicTacToe
    end
    def play
      turn until over?
+     if winner?
+       
  end
 end
 
